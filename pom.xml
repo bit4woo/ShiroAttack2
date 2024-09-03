@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>shiro_attack</artifactId>
-    <version>4.5.6-SNAPSHOT</version>
+    <version>4.7.0-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -67,10 +67,11 @@
                     <target>8</target>
                     <encoding>UTF-8</encoding>
                     <compilerArguments>
-                        <bootclasspath>D:/java/jre/lib/rt.jar;D:/java/jre/lib/jce.jar</bootclasspath>
+                        <bootclasspath>C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar</bootclasspath>
                     </compilerArguments>
                 </configuration>
             </plugin>
+            
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
